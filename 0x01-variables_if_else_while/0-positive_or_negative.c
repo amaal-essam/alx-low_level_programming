@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/**
+ * main-entry point
+ * generating a random number
+ * return:Alaway sucess (0)
+ */
 int main(void)
 {
 	int n;
