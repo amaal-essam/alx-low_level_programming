@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main-entry point
+ * Main - entry point
  * generating a random number
  * return:Alaway sucess (0)
  */
@@ -17,7 +17,7 @@ int main(void)
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n == 0)
-		printf("is zero\n");
+		printf("0 is zero\n");
 	else if (n < 0)
 		printf("%d is negative\n",  n);
 return (0);
