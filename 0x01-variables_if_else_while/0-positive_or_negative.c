@@ -1,9 +1,12 @@
 #include <stdio.h>
-#include <cs50.h>
+#include <stdlib.h>
+#include <time.h>
 int main(void)
 {
-	int n  = get_int("n, "\n);
+	int n;
 
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
 		printf("%i,is positive\n", &n);
@@ -16,3 +19,4 @@ int main(void)
 	{
 		printf("%i is negative\n", &n);
 	}
+return (0);
