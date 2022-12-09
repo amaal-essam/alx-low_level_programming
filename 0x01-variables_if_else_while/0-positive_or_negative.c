@@ -4,7 +4,7 @@
 /**
  * Main - entry point
  * generating a random number
- * return:Alaway sucess (0)
+ * Return:Alaway(0) (Success)
  */
 int main(void)
 {
