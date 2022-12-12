@@ -1,7 +1,7 @@
 #include <stdio.h>
-/*
- * main-Entry point(Prints all possible different combination of two digits)
- *
+/**
+ *main -Entry point
+ *prints all possible number
  * Return: Alaways 0(Success)
  */
 int main(void)
