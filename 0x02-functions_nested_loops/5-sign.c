@@ -11,7 +11,7 @@
  *-1 and prints - if n is less than zero
  *
  */
-int print_sign(int n);
+int print_sign(int n)
 {
 
 if (n > 0)
@@ -23,8 +23,8 @@ if (n > 0)
 	putchar(48);
 	return (0);
 } else if (n < 0)
+{
+	putchar('-');
 }
-putchar('-');
 return (-1);
-}
 }
